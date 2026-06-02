@@ -1,4 +1,4 @@
-# Portfolio 3D
+# Portfolio 
 
 Personal portfolio built with Vite + React showcasing projects, experience, and skills.
 
