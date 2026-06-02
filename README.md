@@ -1,3 +1,56 @@
+# Portfolio 3D
+
+Personal portfolio built with Vite + React showcasing projects, experience, and skills.
+
+## Features
+
+- 3D scene integrations via Spline and Three.js
+- Responsive single-page layout
+- Pages: About, Projects, Experience, Skills, Certifications, Contact
+
+## Local development
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Deployment
+
+This repository includes a GitHub Actions workflow at `.github/workflows/pages.yml` that builds the Vite app and deploys it to GitHub Pages on pushes to `main`.
+
+After the first successful run, the site should be available at:
+
+```
+https://Yug-Gupta1212.github.io/Portfolio/
+```
+
+## Author
+
+Yug Gupta
+
+## License
+
+MIT
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
