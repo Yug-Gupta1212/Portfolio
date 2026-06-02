@@ -1,100 +1,178 @@
-# 🎨 Portfolio 3D
+# 🌐 Portfolio 3D — Yug Gupta
 
-Personal portfolio website built with **React** and **Vite**, featuring interactive 3D scene integrations to showcase my projects, experience, and technical skills[cite: 1].
+> A personal portfolio built with **React + Vite**, featuring immersive 3D scene integrations via Spline and Three.js, a fully responsive single-page layout, and smooth navigation across all major sections.
 
-🔗 **Live Demo:** [https://Yug-Gupta1212.github.io/Portfolio/](https://Yug-Gupta1212.github.io/Portfolio/)[cite: 1]
-
----
-
-## 🚀 Features
-
-* **Immersive 3D Graphics:** Integrations powered by **Spline** and **Three.js** for an interactive user experience[cite: 1].
-* **Responsive Design:** Fully optimized for desktops, tablets, and mobile devices[cite: 1].
-* **Single-Page Architecture:** Smooth navigation across all core sections:[cite: 1]
-    * **About:** A brief introduction to who I am[cite: 1].
-    * **Projects:** Showcase of my recent work with live links and code repositories[cite: 1].
-    * **Experience:** Professional timeline and history[cite: 1].
-    * **Skills:** Technical proficiencies and tools[cite: 1].
-    * **Certifications:** Verified achievements and courses completed[cite: 1].
-    * **Contact:** A functional way to get in touch with me[cite: 1].
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
+[![Three.js](https://img.shields.io/badge/Three.js-black?style=flat-square&logo=threedotjs)](https://threejs.org/)
+[![Spline](https://img.shields.io/badge/Spline-3D-FF6B6B?style=flat-square)](https://spline.design/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](./LICENSE)
+[![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-222?style=flat-square&logo=github)](https://Yug-Gupta1212.github.io/Portfolio/)
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Features
 
-* **Frontend Framework:** React (Vite-powered)[cite: 1]
-* **3D Libraries:** Three.js & Spline[cite: 1]
-* **Styling:** Modern CSS / Framework-supported styling[cite: 1]
-* **CI/CD & Hosting:** GitHub Actions & GitHub Pages[cite: 1]
+- **3D Scene Integrations** — Interactive 3D visuals powered by [Spline](https://spline.design/) and [Three.js](https://threejs.org/)
+- **Responsive Single-Page Layout** — Fluid design that adapts seamlessly from mobile to desktop
+- **Smooth Navigation** — Anchor-based scrolling across all sections without page reloads
+- **Sections Included:**
+  - 🙋 **About** — Introduction and personal summary
+  - 💼 **Projects** — Showcase of key works with links and descriptions
+  - 📈 **Experience** — Professional and internship history
+  - 🛠️ **Skills** — Technologies and tools used
+  - 🏅 **Certifications** — Earned credentials and courses
+  - 📬 **Contact** — Ways to get in touch
 
 ---
 
-## 💻 Local Development
+## 🗂️ Project Structure
 
-Follow these steps to get a local copy of the project up and running[cite: 1].
+```
+Portfolio/
+├── public/                 # Static assets
+├── src/
+│   ├── components/         # Reusable UI components
+│   ├── sections/           # Page sections (About, Projects, etc.)
+│   ├── assets/             # Images, icons, 3D models
+│   ├── App.jsx             # Root component
+│   └── main.jsx            # Entry point
+├── .github/
+│   └── workflows/
+│       └── pages.yml       # GitHub Actions deployment workflow
+├── index.html
+├── vite.config.js
+└── package.json
+```
+
+---
+
+## 🚀 Local Development
 
 ### Prerequisites
 
-Ensure you have [Node.js](https://nodejs.org/) installed on your machine[cite: 1].
+- [Node.js](https://nodejs.org/) v18 or higher
+- npm v9 or higher
 
-### Setup Instructions
+### 1. Clone the repository
 
-1. **Clone the repository:**
 ```bash
-   git clone [https://github.com/Yug-Gupta1212/Portfolio.git](https://github.com/Yug-Gupta1212/Portfolio.git)
-   cd Portfolio
-Install dependencies:
+git clone https://github.com/Yug-Gupta1212/Portfolio.git
+cd Portfolio
+```
 
-Bash
-   npm install
-   ```[cite: 1]
+### 2. Install dependencies
 
-3. **Run the development server:**
 ```bash
-   npm run dev
-   ```[cite: 1]
-   *The local development server will spin up (usually at `http://localhost:5173`). It includes Hot Module Replacement (HMR) for instant feedback during coding.*[cite: 1]
+npm install
+```
 
-### Production Build
+### 3. Start the development server
 
-To compile and optimize the application for production, run:
 ```bash
-npm run build
-```[cite: 1]
+npm run dev
+```
 
-To preview the built production assets locally:
-```bash
-npm run preview
-```[cite: 1]
+The app will be available at `http://localhost:5173` with Hot Module Replacement (HMR) enabled.
 
 ---
 
-## 📦 Deployment
+## 🛠️ Available Scripts
 
-This repository includes an automated GitHub Actions workflow located at `.github/workflows/pages.yml`[cite: 1]. 
-
-Whenever changes are pushed to the `main` branch, the workflow will automatically:[cite: 1]
-1. Build the production-ready Vite application[cite: 1].
-2. Deploy the static assets seamlessly to **GitHub Pages**[cite: 1].
-
----
-
-## ⚙️ Project Structure Notes (Vite + React)
-
-This project leverages the official `@vitejs/plugin-react` compiler setup for fast build times and local performance optimization[cite: 1].
-
-* **ESLint Configuration:** If you plan on expanding this into a large-scale application, it is highly recommended to upgrade to a TypeScript environment[cite: 1]. Check out the official [Vite TS Template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) and [typescript-eslint](https://typescript-eslint.io) for setup steps[cite: 1].
-* **React Compiler:** The experimental React Compiler is disabled by default to maintain raw build performance[cite: 1]. If you want to enable it, follow the [React Compiler Installation Guide](https://react.dev/learn/react-compiler/installation)[cite: 1].
+| Command | Description |
+|---|---|
+| `npm run dev` | Start local dev server with HMR |
+| `npm run build` | Build optimised production bundle to `dist/` |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint across the project |
 
 ---
 
-## 👤 Author
+## 🌍 Deployment
 
-* **Yug Gupta**[cite: 1]
-* GitHub: [@Yug-Gupta1212](https://github.com/Yug-Gupta1212)[cite: 1]
+This project is deployed to **GitHub Pages** via a GitHub Actions CI/CD workflow.
+
+### How it works
+
+Every push to the `main` branch triggers the workflow at `.github/workflows/pages.yml`, which:
+
+1. Checks out the repository
+2. Installs Node.js dependencies
+3. Runs `npm run build` to generate the `dist/` folder
+4. Deploys the built assets to the `gh-pages` branch
+
+### Live Site
+
+```
+https://Yug-Gupta1212.github.io/Portfolio/
+```
+
+> **Note:** After the first successful workflow run, GitHub Pages may take a few minutes to propagate. Make sure GitHub Pages is enabled in your repository settings under **Settings → Pages → Source: Deploy from a branch (gh-pages)**.
+
+### Vite base path
+
+Ensure `vite.config.js` includes the correct base path for GitHub Pages:
+
+```js
+// vite.config.js
+export default {
+  base: '/Portfolio/',
+}
+```
+
+---
+
+## 🧩 Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| [React 18](https://react.dev/) | UI component framework |
+| [Vite 5](https://vitejs.dev/) | Build tool & dev server |
+| [Three.js](https://threejs.org/) | 3D rendering engine |
+| [Spline](https://spline.design/) | Interactive 3D scene editor |
+| [@splinetool/react-spline](https://www.npmjs.com/package/@splinetool/react-spline) | Spline React integration |
+| [GitHub Actions](https://github.com/features/actions) | CI/CD for automated deployment |
+| [GitHub Pages](https://pages.github.com/) | Static site hosting |
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICE
+This project is licensed under the **MIT License**.
+
+```
+MIT License
+
+Copyright (c) 2025 Yug Gupta
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+---
+
+## 👤 Author
+
+**Yug Gupta**
+
+- GitHub: [@Yug-Gupta1212](https://github.com/Yug-Gupta1212)
+- Portfolio: [yug-gupta1212.github.io/Portfolio](https://Yug-Gupta1212.github.io/Portfolio/)
+
+---
+
+<p align="center">Made with ❤️ and Three.js by Yug Gupta</p>
