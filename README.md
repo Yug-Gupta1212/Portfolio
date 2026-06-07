@@ -1,6 +1,6 @@
 # 🌐 Portfolio 3D — Yug Gupta
 
-> A personal portfolio built with **React + Vite**, featuring immersive 3D scene integrations via Spline and Three.js, a fully responsive single-page layout, and smooth navigation across all major sections.
+> A personal portfolio built with **React + Vite**, featuring immersive 3D scene integrations via Spline and Three.js, a fully responsive single-page layout, and smooth navigation across all major sections..
 
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
