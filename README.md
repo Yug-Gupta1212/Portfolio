@@ -107,7 +107,7 @@ Every push to the `main` branch triggers the workflow at `.github/workflows/page
 https://Yug-Gupta1212.github.io/Portfolio/
 ```
 
-> **Note:** After the first successful workflow run, GitHub Pages may take a few minutes to propagate. Make sure GitHub Pages is enabled in your repository settings under **Settings → Pages → Source: Deploy from a branch (gh-pages)**.
+> **Note:** After the first successful workflow run, GitHub Pages may take a few minutes to propagate. Make sure GitHub Pages is enabled in your repository settings under **Settings → Pages → Source: Deploy from a branch (gh-pages)**..
 
 ### Vite base path
 
