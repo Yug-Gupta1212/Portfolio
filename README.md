@@ -22,7 +22,7 @@
   - 📈 **Experience** — Professional and internship history
   - 🛠️ **Skills** — Technologies and tools used
   - 🏅 **Certifications** — Earned credentials and courses
-  - 📬 **Contact** — Ways to get in touch
+  - 📬 **Contact** — Ways to get in touch.
 
 ---
 
